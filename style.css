@@ -1,0 +1,603 @@
+header {
+    width: 100%;
+    height: 73px;
+    background-color: #212529;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/bg-main_1.png) no-repeat fixed;
+    background-size: cover;
+    margin: auto;
+    
+}
+.box1 {
+    width: 100%;
+    height: 977px;
+    background-color: rgba(127, 255, 212, 0);
+    
+}
+.box2 {
+    width: 100%;
+    height: 500px;
+    background-color: #94d3dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    width: 100%;
+    height: 890px;
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 {
+    width: 100%;
+    height: 1844px;
+    background-color: #eeeeee;
+}
+.box5 {
+    width: 100%;
+    height: 1186px;
+    background-color: #0000000a;
+    backdrop-filter: blur(2px);
+}
+.box6 {
+    width: 100%;
+    height: 743px;
+    background-color: #c5c5c594;
+}
+.box7 {
+    width: 100%;
+    height: 613px;
+    background-color: #2da2ab;
+}
+.box8 {
+    width: 100%;
+    height: 335px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.box9 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+.box10 {
+    width: 100%;
+    height: 701px;
+    background-color: rgba(255, 255, 255, 0.74);
+    backdrop-filter: blur(2px);
+}
+
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(4, 4, 4);
+}
+/* -------------------------------- */
+.d1 {
+    width: 1140px;
+    height: 73px;
+    background-color: #94d3dd00;
+    margin-left: 382px;
+    position: relative;
+    margin: auto;
+    line-height: 100px;
+    
+}
+.d2 {
+    float: right;
+    margin: auto;
+}
+a {
+    font-family: "微軟正黑體" ;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    text-decoration-line: none;
+    color: #8b8b8b;
+    padding: 10px;
+}
+a.a1:hover {
+    color: #afafaf;
+}
+a.a2:hover {
+    color: #afafaf;
+}
+
+a.a3 {
+    background-color: #fb8626;
+    color: #ffffff;
+    border-radius: 160px;
+}
+a.a3:hover {
+    background-color: #fc7100;
+}
+/* --------------------------------- */
+.box01 {
+    height: 593px;
+    width: 1140px;
+    position: relative;
+    margin: auto;
+    top:220px  ;
+} 
+.box001 img {
+    float: left;
+}
+.box001 p {
+    font-family: "微軟正黑體" ;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-decoration: underline #94d3dd;
+    line-height: 40px;
+    padding-top: 50px;
+}
+h4 {
+    margin-top: 230px;
+    font-family: "微軟正黑體" ;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #2da2a8;
+}
+/* ---------------------------- */
+.box02 {
+    max-width: 960px;
+    height: 467px;
+    
+    position: relative;
+    margin: auto;
+    top:15px
+}
+.box002 {
+    max-width: 936px;
+    height: 133px;
+    
+    position: relative;
+    margin: auto;  
+    text-align: center;
+}
+.box022 {
+    width: 950px;
+    height: 330px;
+    position: relative;
+    top:10px
+}
+.box0002 {
+    max-width: 220px;
+    height: 320px;
+    
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+.img2 {
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%)
+}
+/* ---------------------------- */
+.box03 {
+    width: 1053px; 
+    height: 782px;
+}
+.box003 {
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+}
+.img3 {
+    height: 600px;
+}
+/* ------------------------------ */
+.box04 {
+    height: 1700px;
+    width: 960px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+}
+.box004 {
+    width: 100%;
+    height: 100px;
+}
+.box044 {
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+h2 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100px;
+}
+.box0440 {
+    width: 560px;
+    height: 400px;
+    float: left;
+    line-height: 35px;
+}
+.box0444{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.img4 {
+    width: 400px;
+    position: relative;
+    top: 200px;
+}
+.font4 {
+    font-family: "微軟正黑體" ;
+    font-size: 22px;
+    font-weight: 600; 
+}
+.font44 {
+    font-family: "微軟正黑體" ;
+    font-size: 22px;
+    font-weight: 600; 
+}
+.font444 {
+    font-family: "微軟正黑體" ;
+    font-size: 22px;
+    font-weight: 600; 
+    background-color: #14cff9;
+    color: floralwhite;
+}
+.font4444 {
+    font-family: "微軟正黑體" ;
+    font-size: 18px;
+    font-weight: 700; 
+}
+ul {
+    list-style-type: disc ;
+    margin-left: 20px;
+}
+.fontul4-1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.fontli4-1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.fontli4-2 {
+    font-size: 18px;
+    color: #4fbe9f;
+    font-weight: 700;
+}
+/* --------------------------------------------- */
+.size5 {
+    width: 1140px;
+    height: 1080px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.size5-1 {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.size5-2 {
+    width: 100%;
+    height: 130px;
+}
+.size5-3 {
+    width: 100%;
+    height: 300px;
+}
+.size5-2-1 {
+    font-family: "微軟正黑體" ;
+    border: 1px solid #54cf96;
+    background-color: #ffffff;
+    width: 800px;
+    height: 68px;
+    float: right;
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-left: 10px;
+}
+.img5-1 {
+    height: 110px ;
+    float: right;
+}
+.size5-3-1 {
+    height: 270px;
+    width: 280px;
+    float: left;
+}
+.size5-3-2 { 
+    height: 270px;
+    width: 750px;
+    float: left;
+    
+}
+.img5-3 {
+width: 280px;
+}
+ol {
+    margin-left: 40px;
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    
+}
+h5 {
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff00;
+    border:1px solid #14cff9;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 700;
+}
+/* ----------------------------------------------------- */
+.size6 {
+    width: 1140px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.size6-1 {
+    width: 1140px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.size6-2 {
+    width: 1140px;
+    height: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.img6-2 {
+    width: 920px;
+    height: 520px;
+}
+/* ----------------------------- */
+.size7 {
+    height: 520px;
+    width: 1140px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.size7-1 {
+    height: 100px;
+    width: 1140px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.size7-2 {
+    height: 350px;
+    width: 1140px;
+}
+.size7-3 {
+    height: 80px;
+    width: 1140px;
+    text-align: center;
+    line-height: 80px;
+}
+.size7-2-1 {
+    height: 350px;
+    width: 570px;
+    float: left;
+}
+h6 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.size7-2-1 p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.size7-2-1 a {
+    color: #fb8626;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.size7-2-2 {
+    height: 350px;
+    width: 570px;
+    float: left;
+}
+.table1 {
+    text-align: center;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.table1 td {
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    width: 200px;
+    padding-top: 50px;
+}
+.td1 {
+    background-color: #fe5757;
+    color: #ffffff;
+}
+.td2 {
+    background-color: #ffc107;
+}
+.td3 {
+    background-color: #ffffff;
+}
+.size7-3 a {
+    border-radius: 20px;
+    font-size: 30px;
+    color: floralwhite;
+    background-color: orange;
+}
+/* -------------------------------------- */
+.size8 {
+    width: 1600px;
+    height: 100px;
+    margin: auto;
+}
+.size8-1 {
+    width: 1600px;
+    height: 235px;
+    margin: auto;
+}
+.size8-1-1 {
+    width: 400px;
+    height: 235px;
+    float: left;
+}
+.size8-1-1 img {
+    width: 400px;
+    height: 235px;
+}
+/* -------------------------------------------- */
+.size9 {
+    height: 350px;
+    width: 1140px;
+    margin: auto;
+    position: relative;
+    top:40px
+}
+
+.size9-1 {
+    height: 80px;
+    width: 1140px;
+}
+.size9-2 {
+    height: 270px;
+    width: 1140px;
+}
+.size9-2-1 {
+    height: 270px;
+    width: 320px;
+    float: left;
+    padding: 20px;
+}
+.size9-2-1 img {
+    height: 200px;
+    width: 320px;
+    box-shadow: 5px 5px 5px gray,-1px -1px 5px gray;
+}
+.size9-2-1 figure {
+    line-height: 30px;
+}
+/* -------------------------------------------------- */
+.size10 {
+    height: 600px;
+    width: 1140px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.size10-1 {
+    height: 100px;
+}
+.size10-2 {
+    height: 500px;
+}
+.size10-2 ul {
+    margin: 5px;
+}
+.size10-2 li {
+    list-style: none;
+}
+.size10-2 li h2 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.size10-2 li p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.size10-2 li a {
+    color: orange;
+    font-size: 16px;
+    font-weight: 700;
+}
+.size10-2 li a:hover {
+    color: blue;
+}
+/* -------------------------------------------------- */
+.sizefooter {
+    height: 65px;
+    width: 1140px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.sizefooter ul {
+    width: 1140px;
+    height: 20px;
+    margin-left: 150px ;
+}
+.sizefooter li{
+    list-style: none;
+    float: left;
+}
+.sizefooter a {
+    color: #ffffff;
+}
+.sizefooter p {
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+/* ---------------------------------------------------- */
+.topbtn {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    color: #ffffff;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 3;
+}
+.topbtn:hover {
+    background: rgb(176, 115, 2);
+}
+.topbtn i {
+    margin-left: 8px;
+    margin-top: -3px;
+}

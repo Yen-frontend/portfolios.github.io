@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* 區塊div置中方法1 */
+        .box1 {
+            height: 400px;
+            width: 400px;
+            background-color: rgba(150, 150, 12, 0.649);
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+/* 區塊div置中方法2 */
+        .box2 {
+            height: 400px;
+            width: 400px;
+            background-color: rgba(213, 213, 175, 0.684);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* 調整高度 */
+            margin-top: 100px;
+        }
+/* 區塊div內文字置中方法1 */
+        .box3 {
+            height: 400px;
+            width: 400px;
+            background-color: rgba(213, 213, 175, 0.684);
+            /* text-align: center;
+            line-height: 500px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+/* 區塊div內文字或物件置中方法2 */
+        .box4 {
+            height: 100px;
+            width: 100px;
+            background-color: #5c4646;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3">123
+        <div class="box4">
+            
+        </div>
+        <div class="box4">
+            
+        </div>
+        <div class="box4">
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>
