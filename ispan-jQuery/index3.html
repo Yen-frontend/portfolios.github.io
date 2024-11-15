@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        width: 800px;
+        height: 100%;
+        padding: 50px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .row {
+        display: flex;
+        width: 210px;
+        height: 210px;
+        margin: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .col {
+        display: flex;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .col-1 {
+        border-radius: 20px 20px 0 0;
+        background: orange;
+      }
+
+      .col-2 {
+        border-radius: 0 20px 20px 0;
+        background: orange;
+      }
+
+      .col-3 {
+        border-radius: 0 0 20px 20px;
+        background: orange;
+      }
+
+      .col-4 {
+        border-radius: 20px 0 0 20px;
+        background: orange;
+      }
+
+      .active {
+        background: pink;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>監聽鍵盤事件,左右鍵選擇座位及桌次進階</h1>
+    <div class="container">
+      <div class="row row-1 active">
+        <div class="col"></div>
+        <div class="col col-1">1</div>
+        <div class="col"></div>
+        <div class="col col-4">4</div>
+        <div class="col"></div>
+        <div class="col col-2">2</div>
+        <div class="col"></div>
+        <div class="col col-3">3</div>
+        <div class="col"></div>
+      </div>
+      <div class="row row-2">
+        <div class="col"></div>
+        <div class="col col-1">1</div>
+        <div class="col"></div>
+        <div class="col col-4">4</div>
+        <div class="col"></div>
+        <div class="col col-2">2</div>
+        <div class="col"></div>
+        <div class="col col-3">3</div>
+        <div class="col"></div>
+      </div>
+      <div class="row row-3">
+        <div class="col"></div>
+        <div class="col col-1">1</div>
+        <div class="col"></div>
+        <div class="col col-4">4</div>
+        <div class="col"></div>
+        <div class="col col-2">2</div>
+        <div class="col"></div>
+        <div class="col col-3">3</div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script>
+      a = 1;
+      b = 0;
+      $(window).on("keyup", (e) => {
+        if (e.key === "ArrowRight") {
+          b++;
+          $(".active").removeClass("active");
+          $(`.row-${a} .col-${b}`).addClass("active");
+
+          if (b >= 5) {
+            a++;
+            b = 0;
+            $(`.row-${a}`).addClass("active");
+          }
+          if (a >= 4) {
+            $(`.row-3 .col-4`).addClass("active");
+            a = 3;
+            b = 4;
+          }
+        }
+        if (e.key === "ArrowLeft") {
+          if (b == 0) {
+            b = 5;
+            a--;
+          }
+          if (b == 1) {
+            $(`.row-${a}`).addClass("active");
+          }
+          b--;
+          $(".active").removeClass("active");
+          $(`.row-${a} .col-${b}`).addClass("active");
+          if (a <= 0) {
+            a = 1;
+            b = 1;
+            $(`.row-${a}`).addClass("active");
+          }
+          if (b == 0) {
+            $(`.row-${a}`).addClass("active");
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
